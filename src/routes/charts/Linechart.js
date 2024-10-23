@@ -1,16 +1,17 @@
 import {Line} from "react-chartjs-2";
 import {Chart as ChartJS, CategoryScale,LinearScale,PointElement,LineElement,Title,Tooltip,Legend } from "chart.js";
 import React from "react";
+import "./linechart.css";
 
 
 ChartJS.register(CategoryScale,LinearScale,PointElement,LineElement,Title,Tooltip,Legend);
 function Linechart() {
 
-    const [Marks0,setMarks0] = React.useState(0)
-    const [Marks1,setMarks1] = React.useState(0)
-    const [Marks2,setMarks2] = React.useState(0)
-    const [Marks3,setMarks3] = React.useState(0)
-    const [Marks4,setMarks4] = React.useState(0)
+    const [Marks0,setMarks0] = React.useState()
+    const [Marks1,setMarks1] = React.useState()
+    const [Marks2,setMarks2] = React.useState()
+    const [Marks3,setMarks3] = React.useState()
+    const [Marks4,setMarks4] = React.useState()
 
     function handleChange0(event){
         const value = event.target.value
@@ -57,15 +58,15 @@ function Linechart() {
 
     const options={};
 
-    return (<div><Line options={options} data={lineChartData}/>
-    <div>
+    return (<div className="Linechartoutside"><div className="Linechart container"><Line options={options} data={lineChartData}/>
+    <div className="form1">
     <input onChange={handleChange0} placeholder="Your Marks in Math" value={Marks0}/>
     <input onChange={handleChange1} placeholder="Your Marks in QP" value={Marks1}/>
     <input onChange={handleChange2} placeholder="Your Marks in CP" value={Marks2}/>
     <input onChange={handleChange3} placeholder="Your Marks in ECE" value={Marks3}/>
     <input onChange={handleChange4} placeholder="Your Marks in EE" value={Marks4}/>
     </div>
-    </div>)
+    </div></div>)
 };
 
 export default Linechart;

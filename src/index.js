@@ -1,14 +1,3 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-// import App from './App';
-
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
 
 import * as React from "react";
 import { createRoot } from "react-dom/client";
@@ -22,13 +11,11 @@ import {
 
 import Notes from "./routes/tools/Notes";
 import Dashboard from "./routes/Dashboard";
-import Barchart from "./routes/charts/Barchart";
 import Linechart from "./routes/charts/Linechart";
 import Piechart from "./routes/charts/Piechart";
 import Livechart from "./routes/charts/Realtimechart";
 import Contacts from "./routes/data/Contact";
 import Navbar from "./components/Navbar";
-import "./components/Navbar.css";
 import Footer from "./components/Footer";
 
 const AppLayout = () => (

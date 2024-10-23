@@ -7,20 +7,6 @@
   font-family: "Lato", sans-serif;
 }
 
-.Dashboard,
-.Contacts,
-.Livechart,
-.Linechart,
-.Piecharts {
-  display: flex;
-  height: 83vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-  background-color: #000;
-  color: #fff;
-}
-
 .navbar {
   background-color: #ffffff;
   height: 80px;
@@ -98,4 +84,8 @@ span {
 
 footer{
   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 2px;
+  width: 100%;
 }
