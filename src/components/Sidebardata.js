@@ -24,12 +24,6 @@ const SidebarData = [
         cName:"navText"
     },
     {
-        title:"Bar Chart",
-        path:"/barchart",
-        icons:<MdBarChart />,
-        cName:"navText"
-    },
-    {
         title:"Pie Chart",
         path:"/piechart",
         icons:<HiOutlineChartPie />,
