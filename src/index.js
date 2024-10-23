@@ -29,11 +29,13 @@ import Livechart from "./routes/charts/Realtimechart";
 import Contacts from "./routes/data/Contact";
 import Navbar from "./components/Navbar";
 import "./components/Navbar.css";
+import Footer from "./components/Footer";
 
 const AppLayout = () => (
   <>
     <Navbar />
     <Outlet />
+    <Footer/>
   </>
 );
 

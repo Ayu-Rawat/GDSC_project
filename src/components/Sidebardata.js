@@ -2,7 +2,7 @@ import React from 'react'
 import { MdDashboard,MdContacts,MdBarChart } from "react-icons/md";
 import { GrLineChart } from "react-icons/gr";
 import { HiOutlineChartPie } from "react-icons/hi";
-import { CgNotes } from "react-icons/cg";
+import { LuListTodo } from "react-icons/lu";
 
 const SidebarData = [
     {
@@ -42,9 +42,9 @@ const SidebarData = [
         cName:"navText"
     },
     {
-        title:"Notes",
+        title:"To-Do List",
         path:"/notes",
-        icons:<CgNotes />,
+        icons:<LuListTodo />,
         cName:"navText"
     }
 ]

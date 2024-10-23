@@ -1,9 +1,11 @@
 import React from "react";
+import App from "./components/App";
+import "./components/styles.css";
 
 function Notes(){
-    return (
+    return(
         <div className="Notes">
-            <h1>Notes</h1>
+            <App/>
         </div>
     )
 }
