@@ -77,5 +77,6 @@ button span {
 li {
   text-align: left;
   position: relative;
+  left: 20px;
   padding: 0.5rem;
 }
