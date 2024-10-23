@@ -56,10 +56,6 @@ const router = createBrowserRouter([
         element: <Notes />,
       },
       {
-        path: "barchart",
-        element: <Barchart />,
-      },
-      {
         path: "linechart",
         element: <Linechart />,
       },
