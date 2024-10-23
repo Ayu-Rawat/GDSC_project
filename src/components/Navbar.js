@@ -1,21 +1,43 @@
 import React from 'react'
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai"
-import {link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import {SidebarData} from "./Sidebardata";
 import "./Navbar.css";
 import {IconContext} from "react-icons";
 
 function Navbar() {
+  const [sidebar,setSidebar] = React.useState(false)
+
+  function showSidebar(){
+    setSidebar(true)
+  }
+
   return (
     <> 
       <IconContext.Provider value={{color:"undefined"}}>
         <div className='navbar'>
-          <link to="#" className='menu-bars'>
-            <FaSkullCrossbones.FaBars onclick={showSlidebar} />
-          </link>
+          <Link to="#" className='menu-bars'>
+            <FaIcons.FaBars onclick={showSidebar} />
+          </Link>
         </div>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+          <ul className='nav-menu-items' onClick={showSidebar}>
+            <li className='navbar-toggle'>
+              <Link to='#' className='menu-bars'>
+                <AiIcons.AiOutlineClose />
+              </Link>
+            </li>
+            {SidebarData.map((item,index) => {
+              return (
+                <li key={index} className={item.cName}>
+                  <Link to={item.path}>
+                    <span>{item.title}</span>
+                  </Link>
+                </li>
+              )
+            })}
+          </ul>
         </nav>
       </IconContext.Provider>
     </>

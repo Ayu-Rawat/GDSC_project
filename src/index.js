@@ -21,41 +21,41 @@ import {
 
 import Notes from "./routes/tools/Notes";
 import Dashboard from "./routes/Dashboard";
-// import Barchart from "./routes/charts/Barchart";
-// import Linechart from "./routes/charts/Linechart";
-// import Piechart from "./routes/charts/Piechart";
-// import Livechart from "./routes/charts/Livechart";
-// import Contacts from "./routes/data/Contact";
+import Barchart from "./routes/charts/Barchart";
+import Linechart from "./routes/charts/Linechart";
+import Piechart from "./routes/charts/Piechart";
+import Livechart from "./routes/charts/Livechart";
+import Contacts from "./routes/data/Contact";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Dashboard />,
   },
-  // {
-  //   path: "contactinfo",
-  //   element: <Contacts />,
-  // },
+  {
+    path: "contactinfo",
+    element: <Contacts />,
+  },
   {
     path: "notes",
     element: <Notes />,
   },
-  // {
-  //   path: "barchart",
-  //   element: <Barchart />,
-  // },
-  // {
-  //   path: "linechart",
-  //   element: <Linechart />,
-  // },
-  // {
-  //   path: "piechart",
-  //   element: <Piechart />,
-  // },
-  // {
-  //   path: "livechart",
-  //   element: <Livechart />,
-  // },
+  {
+    path: "barchart",
+    element: <Barchart />,
+  },
+  {
+    path: "linechart",
+    element: <Linechart />,
+  },
+  {
+    path: "piechart",
+    element: <Piechart />,
+  },
+  {
+    path: "livechart",
+    element: <Livechart />,
+  },
 ]);
 
 createRoot(document.getElementById("root")).render(
