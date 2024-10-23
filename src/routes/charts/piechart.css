@@ -1,0 +1,26 @@
+.Piecharts{
+    max-height: 650px;
+    display: grid;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    min-height: 560px;
+    max-width: 600px;
+    min-width: 250px;
+    background: #f1f5f8;
+    background-size: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px #00000040;
+    padding: 1rem;
+}
+
+.Piechartoutside{
+    background-color: #ffeaa7;
+}
+
+.heading1 h1 {
+    padding: 0;
+    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+    font-size: 1.5rem;
+    text-align: center;
+}
