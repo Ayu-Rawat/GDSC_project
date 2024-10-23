@@ -1,5 +1,8 @@
 import React from 'react'
-import { MdDashboard } from "react-icons/md";
+import { MdDashboard,MdContacts,MdBarChart } from "react-icons/md";
+import { GrLineChart } from "react-icons/gr";
+import { HiOutlineChartPie } from "react-icons/hi";
+import { CgNotes } from "react-icons/cg";
 
 const SidebarData = [
     {
@@ -11,37 +14,39 @@ const SidebarData = [
     {
         title:"Contact Info",
         path:"/contactinfo",
-        icons:<MdDashboard />,
+        icons:<MdContacts />,
         cName:"navText"
     },
     {
         title:"Line Chart",
         path:"/linechart",
-        icons:<MdDashboard />,
+        icons:<GrLineChart />,
         cName:"navText"
     },
     {
         title:"Bar Chart",
         path:"/barchart",
-        icons:<MdDashboard />,
+        icons:<MdBarChart />,
         cName:"navText"
     },
     {
         title:"Pie Chart",
         path:"/piechart",
-        icons:<MdDashboard />,
+        icons:<HiOutlineChartPie />,
         cName:"navText"
     },
     {
         title:"Live Chart",
         path:"/livechart",
-        icons:<MdDashboard />,
+        icons:<GrLineChart />,
         cName:"navText"
     },
     {
         title:"Notes",
         path:"/notes",
-        icons:<MdDashboard />,
+        icons:<CgNotes />,
         cName:"navText"
     }
 ]
+
+export default SidebarData;
