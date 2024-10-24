@@ -1,10 +1,6 @@
 .Piecharts{
-    max-height: 650px;
-    width: 100%;
     height: auto;
-    min-height: 560px;
-    max-width: 600px;
-    min-width: 250px;
+    width: 600px;
     background: #f1f5f8;
     background-size: 25px 25px;
     border-radius: 20px;
@@ -25,4 +21,11 @@
     border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
     font-size: 1.5rem;
     text-align: center;
+}
+
+@media (max-width:800px) {
+    .Piecharts{
+        width: 100%;
+        height: auto;
+    }
 }

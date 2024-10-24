@@ -1,10 +1,6 @@
 .Barchart{
-    max-height: 610px;
-    width: 100%;
     height: auto;
-    min-height: 560px;
-    max-width: 600px;
-    min-width: 250px;
+    width: 600px;
     background: #f1f5f8;
     background-size: 25px 25px;
     border-radius: 20px;
@@ -18,4 +14,10 @@
     align-items: center;
     height: 92vh;
     background-color: #ffeaa7;
+}
+
+@media (max-width:800px) {
+    .Barchart{
+        width: 100%;
+    }
 }
