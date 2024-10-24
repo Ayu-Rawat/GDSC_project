@@ -83,8 +83,11 @@ span {
   margin-left: 16px;
 }
 
-@media(max-width:500px){
+@media(max-width:600px){
   .nav-menu{
     width:70%;
+  }
+  .navText a{
+    font-size: 1.4rem;
   }
 }
