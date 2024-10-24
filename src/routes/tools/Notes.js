@@ -4,7 +4,7 @@ import "./components/styles.css";
 
 function Notes(){
     return(
-        <div className="Notes">
+        <div className="Notesoutside">
             <App/>
         </div>
     )

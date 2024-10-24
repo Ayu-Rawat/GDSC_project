@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <div className="container">
+    <div className="Notes">
       <div className="heading">
         <h1>To-Do List</h1>
       </div>
