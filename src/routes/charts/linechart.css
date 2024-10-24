@@ -42,4 +42,9 @@
     .form1 input{
         font-size: 1.2rem;
     }
+
+    .Linechartoutside{
+        display: none;
+        margin-top: 12px;
+    }
 }
