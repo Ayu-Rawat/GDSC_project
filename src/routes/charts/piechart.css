@@ -25,7 +25,9 @@
 
 @media (max-width:1000px) {
     .Piecharts{
-        width: 100%;
+        width: 95%;
         height: auto;
+        margin-left: 2.5%;
+        margin-right:2.5% ;
     }
 }
