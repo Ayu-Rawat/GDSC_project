@@ -38,4 +38,8 @@
         margin-left: 2.5%;
         margin-right:2.5% ;
     }
+
+    .form1 input{
+        font-size: 1.2rem;
+    }
 }
