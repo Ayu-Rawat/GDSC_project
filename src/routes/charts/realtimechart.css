@@ -16,7 +16,7 @@
     background-color: #ffeaa7;
 }
 
-@media (max-width:800px) {
+@media (max-width:1000px) {
     .Barchart{
         width: 100%;
     }

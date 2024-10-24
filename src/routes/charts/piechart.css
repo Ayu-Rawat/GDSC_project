@@ -23,7 +23,7 @@
     text-align: center;
 }
 
-@media (max-width:800px) {
+@media (max-width:1000px) {
     .Piecharts{
         width: 100%;
         height: auto;
