@@ -1,7 +1,5 @@
 .Piecharts{
     max-height: 650px;
-    display: grid;
-    margin: auto;
     width: 100%;
     height: auto;
     min-height: 560px;
@@ -15,7 +13,11 @@
 }
 
 .Piechartoutside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ffeaa7;
+    height: 92vh;
 }
 
 .heading1 h1 {

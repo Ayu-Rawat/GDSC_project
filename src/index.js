@@ -4,8 +4,6 @@ import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
   Outlet,
 } from "react-router-dom";
 
@@ -13,16 +11,13 @@ import Notes from "./routes/tools/Notes";
 import Dashboard from "./routes/Dashboard";
 import Linechart from "./routes/charts/Linechart";
 import Piechart from "./routes/charts/Piechart";
-import Livechart from "./routes/charts/Realtimechart";
-import Contacts from "./routes/data/Contact";
+import Barchart from "./routes/charts/Realtimechart";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 
 const AppLayout = () => (
   <>
     <Navbar />
     <Outlet />
-    <Footer/>
   </>
 );
 
@@ -33,10 +28,6 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Dashboard />,
-      },
-      {
-        path: "contactinfo",
-        element: <Contacts />,
       },
       {
         path: "notes",
@@ -51,8 +42,8 @@ const router = createBrowserRouter([
         element: <Piechart />,
       },
       {
-        path: "livechart",
-        element: <Livechart />,
+        path: "barchart",
+        element: <Barchart />,
       },
     ], 
   },

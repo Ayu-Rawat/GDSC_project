@@ -46,12 +46,12 @@ function Linechart() {
             {
                 label:"Class Average",
                 data:[15,16,12,8,9],
-                borderColor:"red"
+                borderColor:"blue"
             },
             {
                 label:"My Marks",
                 data:[Marks0,Marks1,Marks2,Marks3,Marks4],
-                borderColor:'blue'
+                borderColor:'green'
             }
         ]
     }

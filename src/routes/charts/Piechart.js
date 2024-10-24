@@ -1,6 +1,6 @@
 import React from "react";
 import {Pie} from "react-chartjs-2";
-import {Chart as ChartJS,Title,Tooltip,Legend,ArcElement } from "chart.js";
+import {Chart as ChartJS,Tooltip,Legend,ArcElement } from "chart.js";
 import "./piechart.css"
 
 ChartJS.register(Tooltip,Legend,ArcElement);
