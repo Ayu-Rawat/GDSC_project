@@ -89,5 +89,6 @@ span {
   }
   .navText a{
     font-size: 2rem;
+    padding-bottom: 4px;
   }
 }
