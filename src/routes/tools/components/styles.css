@@ -84,5 +84,6 @@ li {
       height: auto;
       margin-left: 2.5%;
       margin-right:2.5% ;
+      min-height: 800px;
   }
 }
