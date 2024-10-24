@@ -83,7 +83,7 @@ span {
   margin-left: 16px;
 }
 
-@media(max-width:600px){
+@media(max-width:1000px){
   .nav-menu{
     width:70%;
   }
