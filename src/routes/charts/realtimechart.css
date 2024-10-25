@@ -8,25 +8,7 @@
     padding: 8px;
 }
 
-/* .Barchartoutside{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 92vh;
-    background-color: #ffeaa7;
-} */
-
-/* @media (max-width:1000px) {
-    .Barchart{
-        width: 95%;
-        height: auto;
-        margin-left: 2.5%;
-        margin-right:2.5% ;
-    }
-} */
-
 @media (max-width:1000px){
-    /* making the charts card center align  */
     .Barchart{
         display: block;
         width: 95%;

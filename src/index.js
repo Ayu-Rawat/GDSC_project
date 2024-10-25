@@ -9,9 +9,6 @@ import {
 
 import Notes from "./routes/tools/Notes";
 import Dashboard from "./routes/Dashboard";
-// import Linechart from "./routes/charts/Linechart";
-// import Piechart from "./routes/charts/Piechart";
-// import Barchart from "./routes/charts/Realtimechart";
 import Navbar from "./components/Navbar";
 
 const AppLayout = () => (
@@ -33,18 +30,6 @@ const router = createBrowserRouter([
         path: "notes",
         element: <Notes />,
       },
-      // {
-      //   path: "linechart",
-      //   element: <Linechart />,
-      // },
-      // {
-      //   path: "piechart",
-      //   element: <Piechart />,
-      // },
-      // {
-      //   path: "barchart",
-      //   element: <Barchart />,
-      // },
     ], 
   },
 ]);
