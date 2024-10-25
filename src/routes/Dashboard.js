@@ -80,11 +80,11 @@ function Dashboard(){
             </div>
             <hr/>
             <div className="container">
+            <Linechart className="Dashboardline" />
             <div className="Barchart">
                 <Bar className="Dasboardbar" options={options} data={Data}/>
             </div>
             <Piecharts className="Dashboardpie"/>
-            <Linechart className="Dashboardline" />
             </div>
             
         </div>
