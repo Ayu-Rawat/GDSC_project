@@ -57,7 +57,9 @@ function Dashboard(){
 
     return (
         <div className="Dashboard">
-            <h1 className="number">Random Number: {data}</h1>
+            <div>
+                <h1 className="number">Random Number: {data}</h1>
+            </div>
             <div className="container">
             <div className="Barchart">
                 <Bar className="Dasboardbar" options={options} data={Data}/>
