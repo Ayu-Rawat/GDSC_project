@@ -15,6 +15,16 @@ function random(){
 
 function Dashboard(){
     const [data,setData] = React.useState(5);
+    setInterval(updateTime, 1000);
+
+    const now = new Date().toLocaleTimeString();
+  
+    const [time, setTime] = React.useState(now);
+  
+    function updateTime() {
+      const newTime = new Date().toLocaleTimeString();
+      setTime(newTime);
+    }
 
     const options = {
         responsive: true,
@@ -57,9 +67,18 @@ function Dashboard(){
 
     return (
         <div className="Dashboard">
-            <div>
-                <h1 className="number">Random Number: {data}</h1>
+            <div className="boxparent">
+            <div className="box">
+                <h1>Endsem starts: 25/11/24</h1>
             </div>
+            <div className="box">
+                <h1>Time: {time}</h1>
+            </div>
+            <div className="box">
+                <h1>Random Number: {data}</h1>
+            </div>
+            </div>
+            
             <div className="container">
             <div className="Barchart">
                 <Bar className="Dasboardbar" options={options} data={Data}/>

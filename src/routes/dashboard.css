@@ -4,9 +4,3 @@
     flex-wrap:wrap;
     justify-content: space-around;
 }
-
-/* @media (max-width:1274px){
-    .container{
-        justify-content: space-between;
-    }
-} */
