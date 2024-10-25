@@ -25,7 +25,7 @@
     }
 } */
 
-@media (max-width:873px){
+@media (max-width:1000px){
     /* making the charts card center align  */
     .Barchart{
         display: grid;
