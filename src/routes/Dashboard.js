@@ -67,7 +67,7 @@ function Dashboard(){
 
     return (
         <div className="Dashboard">
-            <div className="boxparent">
+            <div className="container">
             <div className="box">
                 <h1>Endsem starts: 25/11/24</h1>
             </div>
@@ -78,7 +78,7 @@ function Dashboard(){
                 <h1>Random Number: {data}</h1>
             </div>
             </div>
-            
+            <hr/>
             <div className="container">
             <div className="Barchart">
                 <Bar className="Dasboardbar" options={options} data={Data}/>

@@ -1,6 +1,28 @@
 .container{
-    padding: 28px;
+    padding: 16px;
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
+}
+
+.box{
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px #00000040;
+    width: 450px;
+    background: #f1f5f8;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+hr{
+    color: #010409;
+}
+
+@media (max-width:1000px){
+    .box{
+        display: block;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-bottom: 20px;
+    }
 }
