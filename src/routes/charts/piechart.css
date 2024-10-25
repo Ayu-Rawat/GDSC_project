@@ -1,6 +1,6 @@
 .Piecharts{
     height: auto;
-    max-width: 450px;
+    width: 450px;
     background: #f1f5f8;
     background-size: 25px 25px;
     border-radius: 20px;
@@ -35,10 +35,9 @@
 @media (max-width:1000px){
     /* making the charts card center align  */
     .Piecharts{
+        display: block;
         width: 95%;
         margin-left: 2.5%;
-        display: grid;
-        margin: auto;
         margin-bottom: 20px;
     }
 }
