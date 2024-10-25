@@ -47,6 +47,8 @@
 @media (max-width:1000px){
     /* making the charts card center align  */
     .Linechart{
+        width: 95%;
+        margin-left: 2.5%;
         display: grid;
         margin: auto;
         margin-bottom: 20px;
