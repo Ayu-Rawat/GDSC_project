@@ -27,11 +27,9 @@ function Piecharts(){
     };
 
     return (
-        <div className="Piechartoutside">
         <div className="Piecharts heading1">
             <h1>My Marks</h1>
             <Pie options={options} data={piechartData} />
-        </div>
         </div>
     )
 }

@@ -1,20 +1,20 @@
 .Piecharts{
     height: auto;
-    width: 600px;
+    max-width: 450px;
     background: #f1f5f8;
     background-size: 25px 25px;
     border-radius: 20px;
     box-shadow: 4px 3px 7px 2px #00000040;
-    padding: 1rem;
+    padding: 8px;
 }
 
-.Piechartoutside{
+/* .Piechartoutside{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffeaa7;
     height: 92vh;
-}
+} */
 
 .heading1 h1 {
     padding: 0;
@@ -23,11 +23,20 @@
     text-align: center;
 }
 
-@media (max-width:1000px) {
+/* @media (max-width:1000px) {
     .Piecharts{
         width: 95%;
         height: auto;
         margin-left: 2.5%;
         margin-right:2.5% ;
+    }
+} */
+
+@media (max-width:873px){
+    /* making the charts card center align  */
+    .Piecharts{
+        display: grid;
+        margin: auto;
+        margin-bottom: 20px;
     }
 }

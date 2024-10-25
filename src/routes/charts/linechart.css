@@ -1,6 +1,6 @@
 .Linechart{
     height: auto;
-    width: 600px;
+    max-width: 450px;
     background: #f1f5f8;
     background-size: 25px 25px;
     border-radius: 20px;
@@ -8,13 +8,13 @@
     padding: 8px;
 }
 
-.Linechartoutside{
+/* .Linechartoutside{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffeaa7;
     height: 92vh;
-}
+} */
 
 .form1 input {
     box-sizing: border-box;
@@ -31,7 +31,7 @@
     margin-bottom: 20px;
 }
 
-@media (max-width:1000px) {
+/* @media (max-width:1000px) {
     .Linechart{
         width: 95%;
         height: auto;
@@ -41,5 +41,14 @@
 
     .form1 input{
         font-size: 1.2rem;
+    }
+} */
+
+@media (max-width:873px){
+    /* making the charts card center align  */
+    .Linechart{
+        display: grid;
+        margin: auto;
+        margin-bottom: 20px;
     }
 }

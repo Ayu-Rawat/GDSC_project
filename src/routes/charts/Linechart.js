@@ -58,7 +58,7 @@ function Linechart() {
 
     const options={};
 
-    return (<div className="Linechartoutside"><div className="Linechart"><Line options={options} data={lineChartData}/>
+    return (<div className="Linechart"><Line options={options} data={lineChartData}/>
     <div className="form1">
     <input onChange={handleChange0} placeholder="Your Marks in Math" value={Marks0}/>
     <input onChange={handleChange1} placeholder="Your Marks in QP" value={Marks1}/>
@@ -66,7 +66,7 @@ function Linechart() {
     <input onChange={handleChange3} placeholder="Your Marks in ECE" value={Marks3}/>
     <input onChange={handleChange4} placeholder="Your Marks in EE" value={Marks4}/>
     </div>
-    </div></div>)
+    </div>)
 };
 
 export default Linechart;
